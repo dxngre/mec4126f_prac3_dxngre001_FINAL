@@ -27,8 +27,15 @@ void main(void);                                                   //COMPULSORY
 
 void main(void)
 {
+	char num[3];
+		my_age.day = 21;
+		my_age.month = 3;
+		my_age.year = 2000;
+		my_age.age = 22;
+
 	while(1)
 	{
+
 	}
 }
 
