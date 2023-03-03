@@ -3968,25 +3968,25 @@ END GROUP
  .debug_abbrev  0x00001155      0x2f7 system\src\stm32f0-hal\stm32f0xx_hal_cortex.o
  .debug_abbrev  0x0000144c      0x272 system\src\stm32f0-hal\stm32f0xx_hal_rcc.o
 
-.debug_line     0x00000000     0x7d73
+.debug_line     0x00000000     0x7d75
  *(.debug_line)
  .debug_line    0x00000000      0x8dc src\initialize-hardware.o
  .debug_line    0x000008dc      0x919 src\lcd_stm32f0.o
- .debug_line    0x000011f5      0x8fb src\main.o
- .debug_line    0x00001af0      0x653 src\stm32f0xx_hal_msp.o
- .debug_line    0x00002143      0x6db system\src\cmsis\system_stm32f0xx.o
- .debug_line    0x0000281e      0x120 system\src\cmsis\vectors_stm32f051x8.o
- .debug_line    0x0000293e      0xa00 system\src\cortexm\exception-handlers.o
- .debug_line    0x0000333e      0x65e system\src\cortexm\initialize-hardware.o
- .debug_line    0x0000399c      0x99d system\src\diag\trace-impl.o
- .debug_line    0x00004339      0x471 system\src\diag\trace.o
- .debug_line    0x000047aa      0x385 system\src\newlib\exit.o
- .debug_line    0x00004b2f      0x370 system\src\newlib\sbrk.o
- .debug_line    0x00004e9f      0x5ed system\src\newlib\startup.o
- .debug_line    0x0000548c      0x48c system\src\newlib\syscalls.o
- .debug_line    0x00005918      0x938 system\src\stm32f0-hal\stm32f0xx_hal.o
- .debug_line    0x00006250      0xa0f system\src\stm32f0-hal\stm32f0xx_hal_cortex.o
- .debug_line    0x00006c5f     0x1114 system\src\stm32f0-hal\stm32f0xx_hal_rcc.o
+ .debug_line    0x000011f5      0x8fd src\main.o
+ .debug_line    0x00001af2      0x653 src\stm32f0xx_hal_msp.o
+ .debug_line    0x00002145      0x6db system\src\cmsis\system_stm32f0xx.o
+ .debug_line    0x00002820      0x120 system\src\cmsis\vectors_stm32f051x8.o
+ .debug_line    0x00002940      0xa00 system\src\cortexm\exception-handlers.o
+ .debug_line    0x00003340      0x65e system\src\cortexm\initialize-hardware.o
+ .debug_line    0x0000399e      0x99d system\src\diag\trace-impl.o
+ .debug_line    0x0000433b      0x471 system\src\diag\trace.o
+ .debug_line    0x000047ac      0x385 system\src\newlib\exit.o
+ .debug_line    0x00004b31      0x370 system\src\newlib\sbrk.o
+ .debug_line    0x00004ea1      0x5ed system\src\newlib\startup.o
+ .debug_line    0x0000548e      0x48c system\src\newlib\syscalls.o
+ .debug_line    0x0000591a      0x938 system\src\stm32f0-hal\stm32f0xx_hal.o
+ .debug_line    0x00006252      0xa0f system\src\stm32f0-hal\stm32f0xx_hal_cortex.o
+ .debug_line    0x00006c61     0x1114 system\src\stm32f0-hal\stm32f0xx_hal_rcc.o
 
 .debug_frame    0x00000000      0xcc4
  *(.debug_frame)
